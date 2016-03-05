@@ -22,8 +22,21 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="fannBuilder.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lasagneBuilder.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="networkBuilder.py" />
     <Compile Include="PyBrain.py" />
+    <Compile Include="pybrainAbalone.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="abalone.txt" />
+    <Content Include="xor.data" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
