@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="fannAbalone.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="fannBuilder.py">
       <SubType>Code</SubType>
     </Compile>
@@ -36,6 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="abalone.txt" />
+    <Content Include="abaloneFann.txt" />
     <Content Include="xor.data" />
   </ItemGroup>
   <PropertyGroup>
